@@ -1,0 +1,326 @@
+nav#widgets {
+  width: 88%;
+  height: 158px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 2%; }
+  nav#widgets .widgetContainer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; }
+    nav#widgets .widgetContainer .NavWidget {
+      z-index: 2;
+      font-size: 13px;
+      background: #EBEBEB;
+      margin: 3px;
+      height: 30px;
+      width: 116px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: sans-serif; }
+      nav#widgets .widgetContainer .NavWidget span {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: grey;
+        cursor: pointer; }
+        nav#widgets .widgetContainer .NavWidget span b {
+          color: black; }
+
+.activeW {
+  background: #FFD200 !important;
+  box-shadow: inset 0 0 2px black; }
+
+#Static {
+  height: 32px;
+  margin: 4px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #4A6293;
+  letter-spacing: 1px; }
+
+.widgetFilter {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .widgetFilter #widgetTitle {
+    width: 14.5%;
+    font-family: sans-serif; }
+  .widgetFilter .filterMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%;
+    width: 38%;
+    margin-bottom: 5px;
+    font-family: sans-serif; }
+    .widgetFilter .filterMenu button.btnTest {
+      padding: 8px;
+      background: #EBEBEB;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      color: grey;
+      font-family: sans-serif; }
+
+#containerBlockCalls {
+  height: auto;
+  width: 100%;
+  border: 1px dashed #7C7C7C;
+  display: inline-block; }
+  #containerBlockCalls .menuCalls {
+    width: 100%;
+    height: 30px;
+    background: #7C7C7C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #containerBlockCalls .menuCalls .SpanContainer {
+      font-size: 12px;
+      color: white; }
+    #containerBlockCalls .menuCalls .div1 {
+      margin-left: 3%;
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 11px; }
+    #containerBlockCalls .menuCalls .div2 {
+      margin-right: 20%;
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 11px; }
+    #containerBlockCalls .menuCalls .div3 {
+      margin-right: 15%;
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 11px; }
+    #containerBlockCalls .menuCalls .div4 {
+      margin-right: 24%;
+      display: inline-block;
+      font-family: sans-serif;
+      font-size: 11px; }
+
+.itemContainer:hover {
+  background: #F8F8F8;
+  cursor: pointer; }
+
+#PetyaSecond:before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #D6D6D6;
+  margin-top: 44px;
+  margin-bottom: 14px;
+  position: relative; }
+
+#PetyaSecond:after {
+  content: "2015 \0433\043E\0434";
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  background: white;
+  padding: 20px;
+  position: relative;
+  top: -118px;
+  left: 0; }
+
+div.before {
+  display: inline-block;
+  width: 100%; }
+  div.before .itemContainer {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif; }
+    div.before .itemContainer .dateCall {
+      display: flex;
+      justify-content: center;
+      padding-left: 3%;
+      flex-direction: column;
+      width: 10%;
+      height: 100%;
+      text-align: left;
+      font-size: 10px; }
+    div.before .itemContainer .WhoIsCall {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      width: 36%;
+      height: 100%; }
+    div.before .itemContainer .WhoIsCallIn {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-right: 38px; }
+    div.before .itemContainer .WhoIsOperator {
+      display: flex;
+      align-items: flex-start;
+      margin-top: -26px;
+      padding-left: 8%;
+      justify-content: center;
+      flex-direction: column;
+      width: 24%;
+      height: 100%; }
+    div.before .itemContainer .timeOfCall {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 12%;
+      height: 100%;
+      padding-right: 8%;
+      font-weight: bold; }
+    div.before .itemContainer .downloadCall {
+      width: 18%;
+      margin-right: 6%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #6FA0C7; }
+      div.before .itemContainer .downloadCall span {
+        border-bottom: 1px dashed #6FA0C7; }
+
+.WhoIsOperator:before {
+  position: relative;
+  left: -40px;
+  top: 30px;
+  content: 'S';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  background: grey;
+  color: white;
+  font-family: sans-serif; }
+
+#Number .downloadCall {
+  width: 17.7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  #Number .downloadCall img {
+    display: none; }
+  #Number .downloadCall .round {
+    margin-right: 10px; }
+  #Number .downloadCall .round:before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    margin: 1px; }
+  #Number .downloadCall .round:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    margin: 1px; }
+  #Number .downloadCall span {
+    margin-right: 0.4%; }
+
+#IpCode .downloadCall {
+  justify-content: flex-start; }
+  #IpCode .downloadCall img {
+    margin-right: 100px; }
+  #IpCode .downloadCall .round {
+    display: none; }
+  #IpCode .downloadCall #downloadThisCall {
+    display: none; }
+
+#NumberBefore:before {
+  position: relative;
+  left: -40px;
+  top: 30px;
+  content: 'W';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  background: grey;
+  color: white;
+  font-family: sans-serif; }
+
+.colorBlue {
+  color: #6FA0C7;
+  border-bottom: 1px solid #6FA0C7; }
+
+.round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6FA0C7;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bold {
+  font-weight: bold; }
+
+.imgCalendar {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#dateFilter {
+  width: 138px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#downLoadStat {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-family: sans-serif; }
+
+.div1:after, .div2:after, .div3:after, .div4:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transform: rotate(45deg);
+  position: relative;
+  left: 10px;
+  top: -1px; }
+
+#blue {
+  color: #839ED6; }
+
+/*# sourceMappingURL=Widget_Stat_Style.css.map */

@@ -1,0 +1,53 @@
+.Header{
+  background: #4A6293;
+  .section_inner_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    nav#header_menu{
+      height: 100%;
+      width: 44%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .navigation{
+        font-size: 16px;
+        font-family: sans-serif;
+        color: white;
+      }
+      .active{
+        color: #839ED6;
+      }
+    }
+    div#Date_Buy{
+      width: 45%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+      #lastDayMessage{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: white;
+        padding-right: 20px;
+      }
+      #btn{
+        width: 124px;
+        height: 30px;
+        border: none;
+        background: #fdb823; /* Old browsers */
+        background: -moz-linear-gradient(left, #fdb823 0%, #ffd200 100%);
+        background: -webkit-linear-gradient(left, #fdb823 0%,#ffd200 100%);
+        background: linear-gradient(to right, #fdb823 0%,#ffd200 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdb823', endColorstr='#ffd200',GradientType=1 );
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        color: black;
+        border-radius: 2px  ;
+      }
+    }
+  }
+}

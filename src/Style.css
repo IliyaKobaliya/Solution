@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0; }
+
+section.section_inner {
+  width: 76%;
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+li {
+  list-style-type: none;
+  /* ╨г╨▒╨╕╤А╨░╨╡╨╝ ╨╝╨░╤А╨║╨╡╤А╤Л */ }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  margin: 0; }
+
+button:active, button:focus {
+  outline: none; }
+
+button::-moz-focus-inner {
+  border: 0; }
+
+/*# sourceMappingURL=Style.css.map */

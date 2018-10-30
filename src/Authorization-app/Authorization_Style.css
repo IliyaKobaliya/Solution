@@ -1,0 +1,26 @@
+.AuthorizationContainer .section_inner_authorization {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px; }
+  .AuthorizationContainer .section_inner_authorization .authorizationDiv {
+    width: 60%;
+    text-align: right;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #2B2F5E;
+    display: inline-block; }
+  .AuthorizationContainer .section_inner_authorization #slash {
+    width: 2px;
+    height: 13px;
+    background: #D9E5E7;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .AuthorizationContainer .section_inner_authorization #GoOut {
+    border-bottom: 1px solid #2B2F5E; }
+    .AuthorizationContainer .section_inner_authorization #GoOut span {
+      color: #2B2F5E; }
+
+/*# sourceMappingURL=Authorization_Style.css.map */
